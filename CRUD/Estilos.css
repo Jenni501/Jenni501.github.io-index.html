@@ -1,0 +1,302 @@
+
+.div-formulario{
+    margin-left: 22vw;
+    background-color: rgb(153, 228, 255);
+    width: 35vw;
+    height: 20vw;
+    border-radius: 2vw;
+    margin-top: 4vw;
+}
+#nombre{
+    width: 50%;
+    height: 12%;
+    border-radius: 2vw;
+    border: none;
+    outline: none;
+    text-align: center;
+    box-shadow:  4px 4px  rgb(91, 115, 255);
+    font-size: 24px;
+    margin-top: 4%;
+    margin-left: 25%;
+    margin-top: 2vw;
+    
+
+}
+#puesto{
+    width: 50%;
+    height: 12%;
+    border-radius: 2vw;
+    border: none;
+    outline: none;
+    text-align: center;
+    box-shadow:  4px 4px  rgb(91, 115, 255);
+    font-size: 24px;
+    margin-top: 4%;
+    margin-left: 25%;
+    margin-top: 2vw;
+   
+
+
+}
+ body{ 
+    background:rgb(217, 244, 255); 
+       
+} 
+.btn-eliminar{
+    background-color: red;
+}
+.btn-editar{
+    background-color: green;
+    margin-right: 7%;
+}
+.btn{
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    width: 8%;
+    height: 2.5%;
+    cursor: pointer;
+    font-family: comic sans ms;
+}
+#btnAgregar{
+    background:rgb(0, 40, 184);
+   
+    width: 8.5vw;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+    margin-left: 13.5vw;
+    border-radius: 2vw;
+    cursor: pointer;
+    height: 2.5vw;
+    font-family: comic sans ms;
+}
+p{
+    text-align: center;
+    margin-right: 3vw;
+    font-family: comic sans ms;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+    font-family: comic sans ms;
+    font-size: 45px;
+    color: rgb(16, 0, 162);
+    margin-top: 1vw;
+}
+nav{
+    height: 8vw;
+    /* background: rgb(130, 201, 255); */
+    background: rgb(9, 9, 121);
+    padding:0% ;
+    margin: 0%;
+    box-sizing:border-box;
+    display: flex;
+   
+   
+}
+hr{
+    width: 100%;
+    height: 4vw;
+    background: rgb(0, 36, 197);
+    outline: none;
+    border: none;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    margin-left: 70vw;
+    font-family: comic sans ms;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+.menu{
+    margin-left: 60vw;
+}
+li{
+    margin-right: 2vw;
+    margin-top: 2vw;
+    cursor: pointer;
+   
+   
+}
+img{
+    
+    width: 8vw;
+    height: 7vw;
+    margin-left: 2vw;
+   
+}
+footer{
+    height: 8vw;
+    background: rgb(9, 9, 121);
+    display: flex;
+    
+}
+.fott{
+    text-align: center;
+    font-family: comic sans ms;
+    font-size: 20px;
+   margin-left: 31.5vw;
+   margin-top: 2.5vw;
+   color: rgb(255, 255, 255);
+   font-weight: bolder;
+}
+
+
+/* Responsive */
+@media( width: 100%) {
+   
+    .div-formulario{
+        margin-left: 50%;
+        background-color: rgb(72, 206, 255);
+        width: 26%;
+        height:30%;
+        border-radius: 0.1em;
+        margin-top: 1em;
+    }
+    #nombre{
+        width: 12em;
+        height: 0.5em;
+        border-radius: 0.1em;
+        border: none;
+        outline: none;
+        text-align: center;
+        box-shadow:  4px 4px  rgb(91, 115, 255);
+        font-size: 2px;
+        margin-top: 1em;
+        margin-left: 1em;
+        
+    
+    }
+    #puesto{
+        width: 24em;
+        height: 3em;
+        border-radius: 2em;
+        border: none;
+        outline: none;
+        text-align: center;
+        box-shadow:  4px 4px rgb(91, 115, 255);
+       margin-left: 6em;
+       margin-right: 2em;
+       font-size: 24em;
+       margin-top: 4em;
+       
+    
+    
+    }
+     body{ 
+        background:rgb(217, 244, 255); 
+           
+    } 
+    .btn-eliminar{
+        background-color: red;
+    }
+    .btn-editar{
+        background-color: green;
+        margin-right: 7vw;
+    }
+    .btn{
+        padding: 5px 10px;
+        border: none;
+        margin: 0 5px;
+        color: rgb(255, 255, 255);
+        border-radius: 50px;
+        width: 8em;
+        height: 2.5em;
+        cursor: pointer;
+        font-family: comic sans ms;
+    }
+    #btnAgregar{
+        background:rgb(0, 40, 184);
+       
+        width: 12em;
+        color: aliceblue;
+        border: none;
+        outline: none;
+        margin-top: 4em;
+        margin-left: 12em;
+        border-radius: 2em;
+        cursor: pointer;
+        height: 3em;
+        font-family: comic sans ms;
+    }
+    p{
+        text-align: center;
+        margin-right: 3%;
+        font-family: comic sans ms;
+        font-size: 2px;
+    }
+    h2{
+        text-align: center;
+        font-family: comic sans ms;
+        font-size: 1.2px;
+        color: rgb(16, 0, 162);
+    }
+    nav{
+        height: 8vw;
+        /* background: rgb(130, 201, 255); */
+        background: rgb(255, 255, 255);
+        padding:0% ;
+        margin: 0%;
+        box-sizing:border-box;
+        display: flex;
+       
+       
+    }
+    hr{
+        width: 100%;
+        height: 4px;
+        background: rgb(0, 36, 197);
+        outline: none;
+        border: none;
+    }
+    .menu{
+        display: flex;
+        list-style-type: none;
+        margin-left: 70em;
+        font-family: comic sans ms;
+        font-size: 5px;
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+    }
+    .menu{
+        margin-left: 12em;
+    }
+    li{
+        margin-right: 0em;
+        margin-top: 2em;
+        cursor: pointer;
+       
+       
+    }
+    img{
+        
+        width: 8em;
+        height: 7em;
+        margin-left: 2em;
+       
+    }
+    footer{
+        height: 8em;
+        background: rgb(9, 9, 121);
+        display: flex;
+        
+    }
+    .fott{
+        text-align: center;
+        font-family: comic sans ms;
+        font-size: 5px;
+       margin-left: 31.5em;
+       margin-top: 2.5em;
+       color: rgb(255, 255, 255);
+       font-weight: bolder;
+    }
+    
+
+  }
